@@ -67,6 +67,8 @@ ne erişebilir.
 
 # Ekran Görüntüleri
 
+Ekran görüntülerinin **bulanık** görülmesi durumunda ekran görüntüsünün üzerine tıklayarak bulanıklığı ortadan kaldırabilirsiniz.
+
 ## Login isterleri
 
 ![login](https://user-images.githubusercontent.com/34637980/104817649-9c130280-5833-11eb-97c5-9eeae7759c80.png)
