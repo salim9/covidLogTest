@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Veriler
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <div style="text-align: center;margin: auto;">
+    <h5><b>Dünya Covid-19 Tablosu</b></h5>
+
+    <table class="content-table" style="text-align: center;margin: auto;">
+      <thead>
+        <tr>
+          <th>Yeni Vaka</th>
+          <th>Toplam Vaka</th>
+          <th>Yeni Ölüm</th>
+          <th>Toplam Ölüm</th>
+          <th>Bugün İyileşen</th>
+          <th>Toplam İyileşen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <tr class="active-row" style="text-align: center;margin: auto;">
+          <td>{{ covidGlobal.NewConfirmed }}</td>
+          <td>{{ covidGlobal.TotalConfirmed }}</td>
+          <td>{{ covidGlobal.NewDeaths }}</td>
+          <td>{{ covidGlobal.TotalDeaths }}</td>
+          <td>{{ covidGlobal.NewRecovered }}</td>
+          <td>{{ covidGlobal.TotalRecovered }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <ion-button (click)="logOut()">Çıkış Yap</ion-button>
+  </div>
+</ion-content>

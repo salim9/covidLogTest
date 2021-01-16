@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Üye Girisi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #form="ngForm" (ngSubmit)="loginUser(form)">
+    <div>
+      <ion-item>
+        <ion-input name="email" type="email" placeholder="Your@email.com" ngModel required>
+
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input name="password" type="password" placeholder="Password" ngModel required>
+          
+        </ion-input>
+      </ion-item>
+    </div>
+    <div style="text-align: center;margin: auto;">
+      <ion-button type="submit" [disabled]="form.invalid">Giriş Yap</ion-button>
+    </div>
+  </form>
+  <div style="text-align: center;margin: auto;">
+    <h6 (click)="goToReset()">Sifremi Unuttum</h6>
+    <h6 (click)="goToSignUp()">Kayit Ol</h6>
+  </div>
+
+</ion-content>
