@@ -10,7 +10,7 @@ En güncel ve en güvenilir COVID-19 dünya verilerini almak için yapılan bir 
 
 # Mimari
 
-Uygulama **Ionic** üzerinde geliştirilmiştir. **Ionic Forms** kullanılmıştır. Kullanıcı kayıtları Google'ın servisi olan **Firebase** ile saklanmaktadır. Yeni kullanıcı ve şifre sıfırlama fonksiyonları bulunmaktadır.
+Uygulama **Ionic** üzerinde geliştirilmiştir. **Ionic Forms** kullanılmıştır. Ionic serve komutu ile web browser üzerinde çalışmaktadır. Kullanıcı kayıtları Google'ın servisi olan **Firebase** ile saklanmaktadır. Yeni kullanıcı ve şifre sıfırlama fonksiyonları bulunmaktadır.
 Yer alan COVID-19 Dünya Tablosu verileri [COVID19 API](https://api.covid19api.com/summary "COVID19-API")'dan HttpClient aracılığıyla uygulamaya aktarılmaktadır.
 
   ## Mevcut Sayfalar
